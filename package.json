@@ -1,0 +1,17 @@
+{
+  "name": "pdf2jpegtest",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\"",
+    "start-azurite": "azurite --silent --location azureStorage --loose --debug azureStorage/debug.log"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.8.0",
+    "azurite": "^3.15.0",
+    "jimp": "^0.16.1",
+    "pdf-poppler": "^0.2.1"
+  },
+  "devDependencies": {}
+}
